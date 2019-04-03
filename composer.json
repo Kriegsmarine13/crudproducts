@@ -1,0 +1,20 @@
+{
+    "name": "kriegsmarine/crudproducts",
+    "authors": [
+        {
+            "name": "Vladimir",
+            "email": "borisov.v.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "kriegsmarine/crudproducts": "1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kriegsmarine13/crudproducts"
+        }
+    ]
+}
