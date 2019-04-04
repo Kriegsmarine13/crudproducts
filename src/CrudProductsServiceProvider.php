@@ -34,7 +34,5 @@ class CrudProductsServiceProvider extends ServiceProvider
         $this->app->make('Kriegsmarine\crudproducts\models\Products');
         $this->loadViewsFrom(__DIR__.'/views/', 'crudproducts');
 
-//        $this->loadViewsFrom(__DIR__.'/views/components/', 'crudproducts');
-
     }
 }

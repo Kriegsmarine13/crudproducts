@@ -58,10 +58,11 @@ class CrudProductsController extends Controller
 
         $product = Products::findOrFail($id);
 
-        if($this->user->getRole() == 'admin'){
+        //Разграничение по ролям
+        if($this->user->role == 'admin'){
             $product->name = $request->input('name');
             $product->art = $request->input('art');
-        } elseif($this->user->getRole() == 'manager'){
+        } elseif($this->user->role == 'manager'){
             $product->name = $request->input('name');
         }
 
